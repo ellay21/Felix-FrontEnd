@@ -1,4 +1,4 @@
-# 🧬 LJ Fusion: Lennard-Jones Molecular Dynamics Simulator
+# LJ Fusion: Lennard-Jones Molecular Dynamics Simulator
 
 [![Build & Test](https://github.com/ellay21/LJFusion/actions/workflows/build.yml/badge.svg)](https://github.com/ellay21/LJFusion/actions/workflows/build.yml)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -8,7 +8,7 @@ A high-performance, GPU-accelerated molecular dynamics simulator for studying th
 
 ---
 
-## 📖 Overview
+## Overview
 
 **LJ Fusion** is a sophisticated computational chemistry application that simulates the behavior of particles interacting via the [Lennard-Jones potential](https://en.wikipedia.org/wiki/Lennard-Jones_potential). The simulator leverages NVIDIA CUDA for GPU acceleration, enabling real-time simulation of systems with thousands of particles at ~60 fps.
 
@@ -19,7 +19,7 @@ The project demonstrates:
 - **Thermodynamic Analysis**: Computation of thermodynamic properties and statistical distributions
 - **Multi-platform Support**: Cross-platform deployment via CMake
 
-### 🎯 Core Capabilities
+### Core Capabilities
 
 | Feature | Description |
 |---------|-------------|
@@ -32,7 +32,7 @@ The project demonstrates:
 
 ---
 
-## 🎬 Visual Results
+## Visual Results
 
 ### GUI Application Demo
 The main Qt5-based GUI provides interactive control and real-time visualization:
@@ -57,7 +57,7 @@ The simulator can explore all major phases of the Lennard-Jones system:
 
 ---
 
-## 📊 Lennard-Jones Physics
+## Lennard-Jones Physics
 
 The Lennard-Jones potential describes the interaction between two particles:
 
@@ -79,7 +79,7 @@ This allows study across different materials without unit conversion.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **CMake** 3.18+
@@ -123,7 +123,7 @@ make -j$(nproc)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 LJFusion/
@@ -154,7 +154,7 @@ LJFusion/
 
 ---
 
-## 🔧 Build Options
+## Build Options
 
 Custom CMake options:
 ```bash
@@ -166,7 +166,7 @@ cmake .. \
 
 ---
 
-## 📈 Performance
+## Performance
 
 Typical performance (NVIDIA RTX 2080 Ti):
 - **Single precision (float)**: ~15 GFLOPS sustained
@@ -176,7 +176,7 @@ Typical performance (NVIDIA RTX 2080 Ti):
 
 ---
 
-## 📚 Algorithm Details
+## Algorithm Details
 
 ### Velocity Verlet Integration
 The simulator uses the Velocity Verlet algorithm for stable, reversible dynamics:
@@ -196,7 +196,7 @@ $$v(t + dt) = v(t + dt/2) + \frac{dt}{2m}F(t+dt)$$
 
 ---
 
-## 🧪 Testing & Validation
+## Testing & Validation
 
 Sample data files in `/input/` directory test various scenarios:
 - `N400.Tst1.4.isotherm` - Low temperature isotherm
@@ -205,13 +205,13 @@ Sample data files in `/input/` directory test various scenarios:
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the **GNU General Public License v3.0**. See [LICENSE](LICENSE) for details.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Areas for enhancement:
 - Additional ensemble implementations (NPT, μVT)
@@ -221,7 +221,7 @@ Contributions are welcome! Areas for enhancement:
 
 ---
 
-## 📞 Support
+## Support
 
 For issues, feature requests, or questions:
 - Open an issue on [GitHub Issues](https://github.com/ellay21/LJFusion/issues)
